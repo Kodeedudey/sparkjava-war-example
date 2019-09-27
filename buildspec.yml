@@ -17,8 +17,3 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
-
-artifacts:
-  type: 
-  files:
-    - target/sparkjava-hello-world-1.0.war
