@@ -6,7 +6,7 @@ phases:
       java: openjdk8
   
     commands:
-      - install maven
+      - apt-get install maven
       - apt-get install openjdk-8-jdk
 
   build:
