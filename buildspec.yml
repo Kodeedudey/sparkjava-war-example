@@ -12,3 +12,4 @@ phases:
 artifacts:
   files:
     - target/sparkjava-hello-world-1.0.war
+    discard-paths: yes
