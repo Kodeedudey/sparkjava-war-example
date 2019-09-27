@@ -5,7 +5,7 @@ phases:
     commands:
       runtime-versions:
         java: openjdk8
-        install maven
+        maven: install maven
   build:
     commands:
       - echo Build started on `date`
