@@ -21,4 +21,4 @@ phases:
 artifacts:
   type: 
   files:
-    - target/sparkjava-hello-world-1.0.war.zip
+    - target/sparkjava-hello-world-1.0.war
