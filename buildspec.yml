@@ -7,6 +7,15 @@ phases:
   
     commands:
       - apt-get install openjdk-8-jdk
+      - apt-get update
+      - apt-get install ruby
+      - apt-get install aws-cli
+      - apt-get install wget
+      - cd /home/ubuntu
+      - wget https://s3.amazonaws.com/aws-codedeploy-us-east-1/samples/latest/install
+      - aws s3 cp s3://aws-codedeploy-us-east-1/latest/install . --region us-east-1
+      - chmod +x ./install
+      - sudo ./install auto
 
   build:
     commands:
