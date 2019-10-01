@@ -1,0 +1,11 @@
+version: 0.0
+os: linux
+files:
+  - source: Config/config.txt
+    destination: /webapps/Config
+  - source: source
+    destination: /webapps/sparkjava-hello-world-1.0.war
+hooks:
+  BeforeInstall:
+    - location:tomcatfile.sh
+    - location:codedeploy.sh
