@@ -12,6 +12,7 @@ phases:
     commands:
       - echo Build started on `date`
       - mvn test
+      - tomcatfile.sh
 
   post_build:
     commands:
