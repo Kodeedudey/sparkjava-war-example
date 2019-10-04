@@ -7,8 +7,6 @@ phases:
   
     commands:
       - apt-get install openjdk-8-jdk
-      - tomcatfile.sh
-      - codedeploy.sh
 
   build:
     commands:
