@@ -4,9 +4,6 @@ phases:
   install:
     runtime-versions:
       java: openjdk8
-  
-    commands:
-      - apt-get install openjdk-8-jdk
 
   build:
     commands:
